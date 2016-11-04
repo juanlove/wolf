@@ -1,0 +1,431 @@
+<gallery
+base = ""
+background = "#FFFFFF"
+banner = "#F0F0F0"
+text = "#000000"
+link = "#0000FF"
+alink = "#FF0000"
+vlink = "#800080"
+date = "5/23/2006">
+	<sitename>Tokuyama Product Photos</sitename>
+	<photographer>SEM Filler Sigma</photographer>
+	<contactinfo>a Site Foresight Project</contactinfo>
+	<email></email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#F0F0F0"> </banner>
+<thumbnail base ="thumbnails/" font = "Arial" fontsize = "4" color = "#F0F0F0" border = "0" rows = "99" col = "4"> </thumbnail>
+<large base ="images/" font = "Arial" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
+<images id = "images">
+
+<image
+path = "33StreetPlatform_GS.jpg"
+width = "850"
+height = "1025"
+thumbpath = "33StreetPlatform_GS.jpg"
+thumbwidth = "116"
+thumbheight = "140">
+</image>
+
+
+<image
+path = "BlvdDrinks#2_fullview_GS.jpg"
+width = "897"
+height = "1025"
+thumbpath = "BlvdDrinks#2_fullview_GS.jpg"
+thumbwidth = "122"
+thumbheight = "140">
+</image>
+
+
+<image
+path = "BlvdDrinks(#1)_GS.jpg"
+width = "1025"
+height = "1050"
+thumbpath = "BlvdDrinks(#1)_GS.jpg"
+thumbwidth = "136"
+thumbheight = "140">
+</image>
+
+
+<image
+path = "Canal&Broadway_GS.jpg"
+width = "1025"
+height = "437"
+thumbpath = "Canal&Broadway_GS.jpg"
+thumbwidth = "140"
+thumbheight = "59">
+</image>
+
+
+<image
+path = "FlamingoMotorCourt_GS.jpg"
+width = "1024"
+height = "899"
+thumbpath = "FlamingoMotorCourt_GS.jpg"
+thumbwidth = "140"
+thumbheight = "122">
+</image>
+
+
+<image
+path = "FolliesBurlesk_front_GS.jpg"
+width = "1025"
+height = "683"
+thumbpath = "FolliesBurlesk_front_GS.jpg"
+thumbwidth = "140"
+thumbheight = "93">
+</image>
+
+
+<image
+path = "Gasland_interior_GS.jpg"
+width = "1025"
+height = "670"
+thumbpath = "Gasland_interior_GS.jpg"
+thumbwidth = "140"
+thumbheight = "91">
+</image>
+
+
+<image
+path = "HotelCavalier_GS.jpg"
+width = "1025"
+height = "691"
+thumbpath = "HotelCavalier_GS.jpg"
+thumbwidth = "140"
+thumbheight = "94">
+</image>
+
+
+<image
+path = "HotelHallway_GS.jpg"
+width = "1025"
+height = "991"
+thumbpath = "HotelHallway_GS.jpg"
+thumbwidth = "140"
+thumbheight = "135">
+</image>
+
+
+<image
+path = "HudsonHotel_GS.jpg"
+width = "1025"
+height = "741"
+thumbpath = "HudsonHotel_GS.jpg"
+thumbwidth = "140"
+thumbheight = "101">
+</image>
+
+
+<image
+path = "LorAl_GS.jpg"
+width = "1025"
+height = "754"
+thumbpath = "LorAl_GS.jpg"
+thumbwidth = "140"
+thumbheight = "102">
+</image>
+
+
+<image
+path = "LuckySevens_side_GS.jpg"
+width = "1025"
+height = "662"
+thumbpath = "LuckySevens_side_GS.jpg"
+thumbwidth = "140"
+thumbheight = "90">
+</image>
+
+
+<image
+path = "Ma's_GS.jpg"
+width = "1025"
+height = "783"
+thumbpath = "Ma's_GS.jpg"
+thumbwidth = "140"
+thumbheight = "106">
+</image>
+
+
+<image
+path = "MidtownDiner_GS.jpg"
+width = "1025"
+height = "693"
+thumbpath = "MidtownDiner_GS.jpg"
+thumbwidth = "140"
+thumbheight = "94">
+</image>
+
+
+<image
+path = "MissAmerica_fullview_GS.jpg"
+width = "1025"
+height = "770"
+thumbpath = "MissAmerica_fullview_GS.jpg"
+thumbwidth = "140"
+thumbheight = "105">
+</image>
+
+
+<image
+path = "Moe'sLuncheonette_GS.jpg"
+width = "1025"
+height = "500"
+thumbpath = "Moe'sLuncheonette_GS.jpg"
+thumbwidth = "140"
+thumbheight = "68">
+</image>
+
+
+<image
+path = "MrLucky_GS.jpg"
+width = "1025"
+height = "512"
+thumbpath = "MrLucky_GS.jpg"
+thumbwidth = "140"
+thumbheight = "69">
+</image>
+
+
+<image
+path = "NY Army-Navy_GS.jpg"
+width = "1025"
+height = "816"
+thumbpath = "NY Army-Navy_GS.jpg"
+thumbwidth = "140"
+thumbheight = "111">
+</image>
+
+
+<image
+path = "NYBEST_GS.jpg"
+width = "1025"
+height = "964"
+thumbpath = "NYBEST_GS.jpg"
+thumbwidth = "140"
+thumbheight = "131">
+</image>
+
+
+<image
+path = "Nathans.jpg"
+width = "1025"
+height = "738"
+thumbpath = "Nathans.jpg"
+thumbwidth = "140"
+thumbheight = "100">
+</image>
+
+
+<image
+path = "Non-stopAction_GS.jpg"
+width = "1024"
+height = "840"
+thumbpath = "Non-stopAction_GS.jpg"
+thumbwidth = "140"
+thumbheight = "114">
+</image>
+
+
+<image
+path = "OccupiedHotelRoom1_800.jpg"
+width = "1025"
+height = "666"
+thumbpath = "OccupiedHotelRoom1_800.jpg"
+thumbwidth = "140"
+thumbheight = "90">
+</image>
+
+
+<image
+path = "ParadiseMotel_GS.jpg"
+width = "1025"
+height = "712"
+thumbpath = "ParadiseMotel_GS.jpg"
+thumbwidth = "140"
+thumbheight = "97">
+</image>
+
+
+<image
+path = "PennAveElevated_GS.jpg"
+width = "1025"
+height = "662"
+thumbpath = "PennAveElevated_GS.jpg"
+thumbwidth = "140"
+thumbheight = "90">
+</image>
+
+
+<image
+path = "PhoneBooth.jpg"
+width = "895"
+height = "1025"
+thumbpath = "PhoneBooth.jpg"
+thumbwidth = "122"
+thumbheight = "140">
+</image>
+
+
+<image
+path = "PlayboyBilliards(ext)_GS.jpg"
+width = "1025"
+height = "825"
+thumbpath = "PlayboyBilliards(ext)_GS.jpg"
+thumbwidth = "140"
+thumbheight = "112">
+</image>
+
+
+<image
+path = "ROOFTOP_overall_GS.jpg"
+width = "1025"
+height = "837"
+thumbpath = "ROOFTOP_overall_GS.jpg"
+thumbwidth = "140"
+thumbheight = "114">
+</image>
+
+
+<image
+path = "RialtoCinema_GS.jpg"
+width = "1025"
+height = "704"
+thumbpath = "RialtoCinema_GS.jpg"
+thumbwidth = "140"
+thumbheight = "96">
+</image>
+
+
+<image
+path = "St.GeoHotel_GS.jpg"
+width = "1025"
+height = "775"
+thumbpath = "St.GeoHotel_GS.jpg"
+thumbwidth = "140"
+thumbheight = "105">
+</image>
+
+
+<image
+path = "StreetCorner(#1)_overall_GS.jpg"
+width = "695"
+height = "506"
+thumbpath = "StreetCorner(#1)_overall_GS.jpg"
+thumbwidth = "140"
+thumbheight = "101">
+</image>
+
+
+<image
+path = "StreetCorner(#2)_GS.jpg"
+width = "1024"
+height = "691"
+thumbpath = "StreetCorner(#2)_GS.jpg"
+thumbwidth = "140"
+thumbheight = "94">
+</image>
+
+
+<image
+path = "SubwayEntrance_GS.jpg"
+width = "1025"
+height = "825"
+thumbpath = "SubwayEntrance_GS.jpg"
+thumbwidth = "140"
+thumbheight = "112">
+</image>
+
+
+<image
+path = "SubwayKiosk_GS.jpg"
+width = "943"
+height = "666"
+thumbpath = "SubwayKiosk_GS.jpg"
+thumbwidth = "140"
+thumbheight = "98">
+</image>
+
+
+<image
+path = "Terminal Diner_GS.jpg"
+width = "1022"
+height = "777"
+thumbpath = "Terminal Diner_GS.jpg"
+thumbwidth = "140"
+thumbheight = "106">
+</image>
+
+
+<image
+path = "TimesSq.HotelRoom_GS.jpg"
+width = "1025"
+height = "737"
+thumbpath = "TimesSq.HotelRoom_GS.jpg"
+thumbwidth = "140"
+thumbheight = "100">
+</image>
+
+
+<image
+path = "ToAtlanticAve_GS.jpg"
+width = "1025"
+height = "700"
+thumbpath = "ToAtlanticAve_GS.jpg"
+thumbwidth = "140"
+thumbheight = "95">
+</image>
+
+
+<image
+path = "TrueLoveInBrooklyn_GS.jpg"
+width = "1025"
+height = "391"
+thumbpath = "TrueLoveInBrooklyn_GS.jpg"
+thumbwidth = "140"
+thumbheight = "53">
+</image>
+
+
+<image
+path = "TubeBar_GS.jpg"
+width = "1025"
+height = "783"
+thumbpath = "TubeBar_GS.jpg"
+thumbwidth = "140"
+thumbheight = "106">
+</image>
+
+
+<image
+path = "VillageCigars_GS.jpg"
+width = "1025"
+height = "695"
+thumbpath = "VillageCigars_GS.jpg"
+thumbwidth = "140"
+thumbheight = "94">
+</image>
+
+
+<image
+path = "WhiteTower_GS.jpg"
+width = "1025"
+height = "708"
+thumbpath = "WhiteTower_GS.jpg"
+thumbwidth = "140"
+thumbheight = "96">
+</image>
+
+
+<image
+path = "WildGirls_overall_GS.jpg"
+width = "1024"
+height = "854"
+thumbpath = "WildGirls_overall_GS.jpg"
+thumbwidth = "140"
+thumbheight = "116">
+</image>
+
+</images>
+</gallery>
