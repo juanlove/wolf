@@ -9,39 +9,11 @@
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="js/modernizr-2.0.6.min.js"></script>
     <style>
-        .navbar-fixed-top {
-            background-color: rgba(255, 255, 255, 0);
-            transition: background-color 2s ease 0s;
-        }
-        
-        .navbar-fixed-top.opaque {
-            background-color: rgba(255, 255, 255, 1);
-            transition: background-color 2s ease 0s;
-        }
-        
-        .continue {
-            position: absolute;
-            bottom: 20px;
-            border-top: solid black 1px;
-        }
-        
-        .btn-secondary {
-            background: none;
-            color: black;
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-        
-        @media(max-width:800px) {
-            .portfolio-caption {
-                display: none !important;
-            }
-            .portfolio-item {
-                height: auto !important;
-            }
-        }
+
+            
     </style>
 </head>
 
@@ -71,7 +43,8 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <div class="hiddenTop"></div>
+    <section id="portfolio" class="bg-light-gray mobileMargin">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

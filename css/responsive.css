@@ -1,0 +1,51 @@
+.hiddenTop {
+    display: none;
+    background-color: #f7f7f7;
+}
+
+.navbar-fixed-top {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 2s ease 0s;
+}
+
+.navbar-fixed-top.opaque {
+    background-color: rgba(255, 255, 255, 1);
+    transition: background-color 2s ease 0s;
+}
+
+.continue {
+    position: absolute;
+    bottom: 20px;
+    border-top: solid black 1px;
+}
+
+.btn-secondary {
+    background: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media(max-width:800px) {
+    .portfolio-caption {
+        display: none !important;
+    }
+    .portfolio-item {
+        height: auto !important;
+    }
+    .navbar-fixed-top {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    
+    .navbar-fixed-top.opaque {
+    background-color: rgba(255, 255, 255, 1);
+}
+    
+    .hiddenTop {
+        display: block;
+        height: 75px;
+        width: 100%;
+        
+        background-color: #f7f7f7;
+    }
+}
