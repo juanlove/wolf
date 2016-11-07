@@ -9,11 +9,22 @@
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/floater.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/modernizr-2.0.6.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquerymin.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/dotdotdot.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".wrapper").dotdotdot({
+                wrap: 'letter'
+            , });
+        });
+    </script>
     <style>
 
-            
     </style>
 </head>
 
@@ -23,7 +34,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand page-scroll" href="home.html">ALAN WOLFSON</a> </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand page-scroll" href="index.html">ALAN WOLFSON</a> </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -44,6 +55,15 @@
     </nav>
     <!-- Portfolio Grid Section -->
     <div class="hiddenTop"></div>
+    <div id="fl_menu">
+        <div class="label">MENU</div>
+        <div class="menu"> 
+            <a href="#page-top" class="menu_item page-scroll">STREET SCENES</a> 
+            <a href="#diners" class="menu_item page-scroll">DINERS & FEATURES</a> 
+            <a href="#subway" class="menu_item page-scroll">SUBWAY SCENES</a> 
+            <a href="#otherE" class="menu_item page-scroll">OTHER ENVIROMENTS</a> 
+        </div>
+    </div>
     <section id="portfolio" class="bg-light-gray mobileMargin">
         <div class="container">
             <div class="row">
@@ -420,8 +440,9 @@
                        <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
                     </div>
                 </div>
-
-            <hr style="display: block; clear: both; text-align: center;">
+                
+            <span id="diners" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span>
+            <span style="background: none; height: 75px; width: 100%; display: block; clear: both;" ></span>
             <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">DINERS & FEATURES</h3> 
             <hr style="display: block; clear: both; text-align: center;">
 
@@ -580,8 +601,9 @@
                        <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
                     </div>
                 </div>
-                   
-            <hr style="display: block; clear: both; text-align: center;">
+                
+            <span id="subway" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span>
+            <span style="background: none; height: 75px; width: 100%; display: block; clear: both;" ></span>
             <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">SUBWAY SCENES</h3> 
             <hr style="display: block; clear: both; text-align: center;">
 
@@ -751,8 +773,9 @@
                        <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
                     </div>
                 </div>
-                         
-            <hr style="display: block; clear: both; text-align: center;">
+                
+            <span id="otherE" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span>
+            <span style="background: none; height: 75px; width: 100%; display: block; clear: both;" ></span>
             <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">OTHER ENVIROMENTS</h3> 
             <hr style="display: block; clear: both; text-align: center;">
 
@@ -976,10 +999,7 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/classie.js"></script>
         <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/cbpAnimatedHeader.js"></script>
-        <script src="js/jquery.js"></script>
-        <script src="js/jquerymin.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/dotdotdot.js"></script>
+        <script src="js/floater.js"></script>
         <script>
             $("div[id^='portfolioModal']").each(function () {
                 var currentModal = $(this);
@@ -996,13 +1016,6 @@
             });
         </script>
         <script>
-            $(document).ready(function () {
-                $(".wrapper").dotdotdot({
-                    wrap: 'letter'
-                , });
-            });
-        </script>
-        <script>
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 300) {
                     $('.navbar-fixed-top').addClass('opaque');
@@ -1010,6 +1023,25 @@
                 else {
                     $('.navbar-fixed-top').removeClass('opaque');
                 }
+            });
+        </script>
+        <script>
+            $(function () {
+                $('a.page-scroll').bind('click', function (event) {
+                    var $anchor = $(this);
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500, 'easeInOutExpo');
+                    event.preventDefault();
+                });
+            });
+            // Highlight the top nav as scrolling occurs
+            $('body').scrollspy({
+                    target: '.navbar-fixed-top'
+                })
+                // Closes the Responsive Menu on Menu Item Click
+            $('.navbar-collapse ul li a').click(function () {
+                $('.navbar-toggle:visible').click();
             });
         </script>
 </body>
