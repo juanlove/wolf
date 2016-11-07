@@ -24,39 +24,55 @@
         });
     </script>
     <style>
-        .js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #f7f7f7; color: black}
+        .js div#preloader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+            background: #f7f7f7;
+            color: black
+        }
+        
         .loader {
-  border: 16px solid white;
-  border-radius: 50%;
-  border-top: 16px solid darkslategrey;
-  border-bottom: 16px solid darkslategrey;
-  width: 120px;
-  height: 120px;
+            border: 10px solid white;
+            border-radius: 50%;
+            border-top: 10px solid darkslategrey;
+            border-bottom: 10px solid darkslategrey;
+            width: 50px;
+            height: 50px;
             margin: 0px auto;
             margin-top: 175px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-
-
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
     </style>
 </head>
 
 <body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
-  <div id="preloader"><div class="loader"></div></div>
-   
-   
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-shrink opaque">
         <div class="container">
@@ -81,825 +97,815 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <!-- Portfolio Grid Section -->
-    <div class="hiddenTop"></div>
-    <div id="fl_menu">
-        <div class="label">MENU</div>
-        <div class="menu"> 
-            <a href="#page-top" class="menu_item page-scroll">STREET SCENES</a> 
-            <a href="#diners" class="menu_item page-scroll">DINERS & FEATURES</a> 
-            <a href="#subway" class="menu_item page-scroll">SUBWAY SCENES</a> 
-            <a href="#otherE" class="menu_item page-scroll">OTHER ENVIROMENTS</a> 
+    < <!-- Portfolio Grid Section -->
+        <div class="hiddenTop"></div>
+        <div id="fl_menu">
+            <div class="label">MENU</div>
+            <div class="menu"> <a href="#page-top" class="menu_item page-scroll">STREET SCENES</a> <a href="#diners" class="menu_item page-scroll">DINERS & FEATURES</a> <a href="#subway" class="menu_item page-scroll">SUBWAY SCENES</a> <a href="#otherE" class="menu_item page-scroll">OTHER ENVIROMENTS</a> </div>
         </div>
-    </div>
-    <section id="portfolio" class="bg-light-gray mobileMargin">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sculptures</h2>
-                    <h2 class="section-subheading text-muted">STREET SCENES</h3> </div>
-                     <hr style="display: block; clear: both; text-align: center;">
+        <section id="portfolio" class="bg-light-gray mobileMargin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Sculptures</h2>
+                        <h2 style="display: block; clear: both; text-align: center;">STREET SCENES</h2> </div>
+                    <hr style="display: block; clear: both; text-align: center;"> </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="peepworld.html" class="portfolio-link">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">PEEPWORLD</i> </div>
+                            </div> <img src="web_images/photos/images/peepworld_01.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>PEEPWORLD <span>(2007)</span></h4>
+                            <div class="wrapper">Peepworld is the largest, most intricate piece I've done. Commissioned by a collector from the UK, it took eighteen months to complete.</div>
+                            <div class="continue">
+                                <a href="peepworld.html">
+                                    <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">CANAL ST. <br>CROSS-SECTION</i> </div>
+                            </div> <img src="web_images/photos/images/canal_st_cross-section/canal_st_cross-section%20(1).jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>CANAL ST. CROSS-SECTION <span>(2010)</span></h4>
+                            <div class="wrapper">I wanted to build a piece that resembled a core sample of a city street. As though you took a street, dug it up, and lifted it straight off the earth. "Canal St. Cross-Section" is a combination of five major pieces built into one box. There's a street scene on the top with a subway entrance on the corner.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">KATZ'S DELI</i> </div>
+                            </div> <img src="web_images/photos/images/katzs_deli/katz_1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>KATZ'S DELI <span>(2012)</span></h4>
+                            <div class="wrapper">Katz’s Delicatessen is one of those legendary New York locations. It’s been in business on the lower east side of Manhattan since 1888, and is New York’s oldest deli. Telling someone to “meet me at Katz’s..,” is almost the same as telling them to meet you under the clock in Grand Central - everyone knows where it is.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">PARADISE-PLAYHOUSE</i> </div>
+                            </div> <img src="web_images/photos/images/paradise_playground/PARADISE1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>PARADISE-PLAYHOUSE <span>(2014)</span></h4>
+                            <div class="wrapper">I designed this Times Square environment using details from two different locations. The view into the interior takes you through the rows of x-rated magazines and videos and past the display walls of sex toys and marital aids. In the back of the shop you can see the entrance to the Video Arcade.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">STRAND CINEMA</i> </div>
+                            </div> <img src="web_images/photos/images/strand_cinema/StrandCinema1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>STRAND CINEMA <span>(2013)</span></h4>
+                            <div class="wrapper">The Strand is a fictitious theater based on details from a few different locations. If you look carefully, you can see where the person changing the marquee accidently dropped (and broke) a couple letters from the top of the ladder. The lighting in the marquee is a combination of LEDs and fiber optics.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">HOPP'S LUNCHEONETTE</i> </div>
+                            </div> <img src="web_images/photos/images/Hopps1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>HOPP'S LUNCHEONETTE <span>(2008)</span></h4>
+                            <div class="wrapper">I designed Hopp's Luncheonette shortly after I finished building PeepWorld. After working on the Times Squaresque environment for a year and a half, I was looking for a ‘kinder, gentler’ subject matter to involve myself with. I decided I wanted something that reminded me of growing up on the streets of Brooklyn, in a much different era.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">NON-STOP ACTION</i> </div>
+                            </div> <img src="web_images/photos/images/nonstop.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>NON-STOP ACTION <span>(1990)</span></h4>
+                            <div class="wrapper">The exterior of the porno place in Non-Stop Action is loosely based on one of those establishments that used to exist on Times Square before it was made more "family/tourist-friendly."</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">CASBAH CLUB</i> </div>
+                            </div> <img src="web_images/photos/images/CasbahClub1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>CASBAH CLUB <span>(2008)</span></h4>
+                            <div class="wrapper">This Casbash Club doesn’t actually exist anywhere. The inspiration for the club’s architecture was gotten from an old photo of an adult bookstore in Los Angeles. There are flashing lights and changing colors that are visible in the small window on the entrance door.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">FOLLIES BURLESK</i> </div>
+                            </div> <img src="web_images/photos/images/follies.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>FOLLIES BURLESK <span>(1987)</span></h4>
+                            <div class="wrapper">The inspiration for this piece came from an old picture I found of the Times Square area. The original Follies Burlesk stood on the corner of 46th Street and Broadway. It was above a Howard Johnsons' Restaurant, and had the design and look of something right out of the 1950s.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TUBE BAR</div>
+                            </div> <img src="web_images/photos/images/tubebar.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>TUBE BAR<span>(1992)</span></h4>
+                            <div class="wrapper">I used to pass by Tube Bar all the time when I lived in Jersey City. The beautiful façade, with the over-sized round window and art deco styling was reminiscent of a 'gin-mill' from a bygone era.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>RIALTO CINEMA</div>
+                            </div> <img src="web_images/photos/images/rialtocinema.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>RIALTO CINEMA<span>(1999)</span></h4>
+                            <div class="wrapper">I decided to use "Clockwork Orange" on the marquee as homage to Stanley Kubrick, one of my favorite film directors. After staying up all night to finish the piece, I awoke the next day to the news that Kubrick had died suddenly the night before</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>ST. GEORGE HOTEL</div>
+                            </div> <img src="web_images/photos/images/stgeorge.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>ST. GEORGE HOTEL<span>(1994)</span></h4>
+                            <div class="wrapper">I think the interior of ST. GEORGE HOTEL is a testimonial to the joys of bachelorhood. Observe the fine cuisine and the portraits of the tenant's many girlfriends.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>VILLAGE CIGARS</div>
+                            </div> <img src="web_images/photos/images/villagecigars.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>VILLAGE CIGARS<span>(1985)</span></h4>
+                            <div class="wrapper">My sculptures are seldom an exact representation of an existing location. Usually, they are either totally from my imagination, or a combination of details from many different environments.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>WILD GIRLS</div>
+                            </div> <img src="web_images/photos/images/wildgirls.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>WILD GIRLS<span>(1995)</span></h4>
+                            <div class="wrapper">This fictional Times Square-esque environment is loosely designed after some of the elements of the 1987 Follies Burlesk piece.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>LUCKY SEVENS CASINO</div>
+                            </div> <img src="web_images/photos/images/casino.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>LUCKY SEVENS CASINO<span>(1988)</span></h4>
+                            <div class="wrapper">To date, LUCKY SEVENS CASINO is the largest, most technically intricate piece I've done. I built it before the Las Vegas strip was turned into a theme park, so it was modeled after the older gambling establishments — they had that ostentatious Vegas feel to them, but with less extravaganza. It was before the days of 'Dancing Waters' and laser light shows.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TIMES SQUARE HOTEL ROOM</div>
+                            </div> <img src="web_images/photos/images/timessq.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>TIMES SQUARE HOTEL ROOM<span>(1982)</span></h4>
+                            <div class="wrapper">In order to formulate the narrative element of the work, I try to envision the person who would occupy that environment and what they would be doing there. I saw this hotel room as home to a struggling, yet determined writer. He spends his days banging away on his portable Olivetti while chain-smoking Marlboros and eating junk food.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>HOTEL HALLWAY</div>
+                            </div> <img src="web_images/photos/images/hotelhall.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>HOTEL HALLWAY<span>(1995)</span></h4>
+                            <div class="wrapper">A small piece with a partial view into the room.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>OCCUPIED HOTEL ROOM</div>
+                            </div> <img src="web_images/photos/images/occhotelroom.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>OCCUPIED HOTEL ROOM<span>(1979)</span></h4>
+                            <div class="wrapper">Occupied Hotel Room was finished in 1979, and was the second piece I ever built. The first was a subway car interior that was more in the style of an architectural model. With the hotel room, I decided to include more detail to make it more realistic, and interject a narrative element. All the work I have done since has had a narrative component.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>STREET CORNER #1</div>
+                            </div> <img src="web_images/photos/images/stcorner1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>STREET CORNER #1<span>(1998)</span></h4>
+                            <div class="wrapper">Part of an ongoing series of street corner environments.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>BROOKLYN ROOFTOP</div>
+                            </div> <img src="web_images/photos/images/brooklynroof.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>BROOKLYN ROOFTOP<span>(2005)</span></h4>
+                            <div class="wrapper">Brooklyn Rooftopis a piece that was in my head for years before I finally sat down to build it.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>STREET CORNER #2</div>
+                            </div> <img src="web_images/photos/images/stcorner2.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>STREET CORNER #2<span>(2000)</span></h4>
+                            <div class="wrapper">Part of an ongoing series of street corner environments.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>NEW YORK'S BEST PIZZA</div>
+                            </div> <img src="web_images/photos/images/nybest.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>NEW YORK'S BEST PIZZA<span>(2001)</span></h4>
+                            <div class="wrapper">Part of an ongoing series depicting a vanishing breed — the phone booth.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PHONE BOOTH</div>
+                            </div> <img src="web_images/photos/images/phonebooth.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>PHONE BOOTH<span>(1983)</span></h4>
+                            <!--                        <div class="wrapper">details.</div>-->
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TOWER OF PIZZA</div>
+                            </div> <img src="web_images/photos/images/towerofpizza.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>TOWER OF PIZZA<span>(1985)</span></h4>
+                            <div class="wrapper">This piece is comprised of details from several different locations, some real and some imagined.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>AAA DETECTIVE AGENCY</div>
+                            </div> <img src="web_images/photos/images/AAADetective.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>AAA DETECTIVE AGENCY<span>(1986)</span></h4>
+                            <div class="wrapper">AAA DETECTIVE AGENCY is my homage to film noir movies, and the Sam Spade type of Private Eye. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PEEPLAND</div>
+                            </div> <img src="web_images/photos/images/Peepland.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>PEEPLAND<span>(1983)</span></h4>
+                            <div class="wrapper">Peepland shows a fictitious section of Times Square real estate. It has almost everything you need, all in a row. The sleazy porno shop is surrounded by the sleazy hotel on the one side, and the sleazy movie theater on the other. Probably the only thing missing would be a sleazy bar. For you motorcycle enthusiasts—you’ll be happy to know that there are continuous showings of the widely acclaimed classic film “Hot Biker Girls.”</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>HOTEL CAVALIER</div>
+                            </div> <img src="web_images/photos/images/hotelcav.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>HOTEL CAVALIER<span>(1984)</span></h4>
+                            <div class="wrapper">An actual hotel located on 34th Street inspires the entrance to the HOTEL CAVALIER. This one, however, is somewhat seedier than the original. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>NEW YORK ARMY-NAVY</div>
+                            </div> <img src="web_images/photos/images/nyarmynavy.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>NEW YORK ARMY-NAVY<span>(1991)</span></h4>
+                            <div class="wrapper">Part of an ongoing series depicting a vanishing breed — the phone booth. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PLAYBOY BILLIARDS </div>
+                            </div> <img src="web_images/photos/images/playboys.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>PLAYBOY BILLIARDS <span>(1986)</span></h4>
+                            <div class="wrapper">Playboy Billiards is a composite of details I remembered from some neighborhood 'Billiard Parlors' in Brooklyn.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>HUDSON HOTEL</div>
+                            </div> <img src="web_images/photos/images/hudson_hotel/HUDSON1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>HUDSON HOTEL<span>(1984)</span></h4>
+                            <div class="wrapper">The entrance to the Hudson Hotel is roughly modeled after a flophouse I saw on the Bowery. The street corner portrayed in the piece is fictitious. There is a complete view into the lobby of the seedy hotel, as well as partial views into the theater lobby and subway entrance. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div> <span id="diners" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span> <span style="background: none; height: 75px; width: 100%; display: block; clear: both;"></span>
+                    <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">DINERS & FEATURES</h2>
+                    <hr style="display: block; clear: both; text-align: center;">
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>LOR-AL DINER</div>
+                            </div> <img src="web_images/photos/images/loral.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>LOR-AL DINER<span>(1987)</span></h4>
+                            <div class="wrapper">Lor-al Diner is modeled after the Corfu Diner, located in the Chelsea section of Manhattan.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MISS AMERICA DINER</div>
+                            </div> <img src="web_images/photos/images/missadiner.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>MISS AMERICA DINER<span>(2000)</span></h4>
+                            <div class="wrapper">The location of the Miss America Diner was a surprise. I would have expected to find it as a roadside attraction on a turnpike, or perhaps in an industrial area catering to the workers on their lunch hour. The classic 1942 stainless steel beauty is almost hidden away in a residential/commercial area of Jersey City. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TERMINAL DINER</div>
+                            </div> <img src="web_images/photos/images/terminaldiner.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>TERMINAL DINER<span>(1990)</span></h4>
+                            <div class="wrapper">The Terminal Diner actually exists on the west side of Manhattan. The classically designed stainless steel eatery looks as though it was squeezed to get it into an alleyway between two buildings. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>NATHAN'S CONEY ISLAND</div>
+                            </div> <img src="web_images/photos/images/nathans.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>NATHAN'S CONEY ISLAND<span>(1984)</span></h4>
+                            <div class="wrapper">Anyone who grew up in Brooklyn has visited Nathan's at Coney Island at least once—probably many times. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MIDTOWN DINER</div>
+                            </div> <img src="web_images/photos/images/midtowndiner.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>MIDTOWN DINER<span>(1983)</span></h4>
+                            <div class="wrapper">Midtown Diner shows the interior view of a fictitious diner. The half eaten meal and the tip left on the table helps to tell the story of who just left.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MA'S HOME COOKING</div>
+                            </div> <img src="web_images/photos/images/mas.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>MA'S HOME COOKING<span>(1991)</span></h4>
+                            <div class="wrapper">Ma's Home Cooking was modeled after an existing restaurant on Doyers Street in New York's Chinatown. Doyers is a small street, that's easy to miss if you're not looking for it. It only runs one block long, and makes a sharp 90 degree turn midway. The street has an interesting history. The tabloids used to refer to it as the "Bloody Angle" because of the tong wars that were fought there in the early 20th century. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>METRO DINER</div>
+                            </div> <img src="web_images/photos/images/MetroDiner.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>METRO DINER<span>(1985)</span></h4>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>BOULEVARD DRINKS #1</div>
+                            </div> <img src="web_images/photos/images/blvddrinks1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>BOULEVARD DRINKS #1<span>(1989)</span></h4>
+                            <div class="wrapper">Boulevard Drinks has been a landmark on Journal Square in Jersey City, NJ since 1949.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>BOULEVARD DRINKS #2</div>
+                            </div> <img src="web_images/photos/images/blvddrinks2.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>BOULEVARD DRINKS #2<span>(2003)</span></h4>
+                            <div class="wrapper">This is the second version I did of Boulevard Drinks.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MOE'S LUNCHEONETTE</div>
+                            </div> <img src="web_images/photos/images/moes.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>MOE'S LUNCHEONETTE<span>(1982)</span></h4>
+                            <div class="wrapper">The inspiration for Moe's Luncheonette came from the street corner where many of the "Tunnel Bunnies" used to congregate late at night. Not far from the entrance of the Lincoln Tunnel, it was good location to attract the commuter clientele. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>WHITE TOWER HAMBURGERS</div>
+                            </div> <img src="web_images/photos/images/whitetower.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>WHITE TOWER HAMBURGERS<span>(1984)</span></h4>
+                            <div class="wrapper">Long before Americans had McDonalds, there was the White Tower chain. These beautiful art deco restaurants dotted the eastern half of the US from the mid 1920s up until the early 70s. It is probably debatable whether they were better known for their architectural style or for the price of their burgers — a nickel! </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>KATZ'S DELI</div>
+                            </div> <img src="web_images/photos/images/katzs_deli/katz_1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>KATZ'S DELI<span>(2012)</span></h4>
+                            <div class="wrapper">Katz’s Delicatessen is one of those legendary New York locations. It’s been in business on the lower east side of Manhattan since 1888, and is New York’s oldest deli. Telling someone to “meet me at Katz’s..,” is almost the same as telling them to meet you under the clock in Grand Central - everyone knows where it is.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div> <span id="subway" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span> <span style="background: none; height: 75px; width: 100%; display: block; clear: both;"></span>
+                    <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">SUBWAY SCENES</h2>
+                    <hr style="display: block; clear: both; text-align: center;">
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>SUBWAY AT BLEECKER ST.</div>
+                            </div> <img src="web_images/photos/images/subway_bleecker/SUB_BLKR1.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>SUBWAY AT BLEECKER ST.<span>(2013)</span></h4>
+                            <div class="wrapper">This subway diorama gives you a point of view from the interior of the car. Looking off to the left you can see a partial view into the next car. The view through the door and windows puts you on the Bleecker St. station — in the heart of Greenwich Village. The sign on the station wall is a replica of the original ceramic sign which has been there since the IRT subway line opened in 1904. Thankfully, the sign has been preserved by having it declared as a New York City Landmark. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>CANAL ST. CROSS-SECTION</div>
+                            </div> <img src="web_images/photos/images/canal_st_cross-section/canal_st_cross-section%20(1).jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>CANAL ST. CROSS-SECTION<span>(2010)</span></h4>
+                            <div class="wrapper">I wanted to build a piece that resembled a core sample of a city street. As though you took a street, dug it up, and lifted it straight off the earth. "Canal St. Cross-Section" is a combination of five major pieces built into one box. There's a street scene on the top with a subway entrance on the corner. Looking down into the subway entrance, you are led to the two subterranean levels of the piece, both of which have intersecting cross views visible through the small windows on the sides of the piece. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>BROOKLYN BRIDGE STATION</div>
+                            </div> <img src="web_images/photos/images/BrooklynBridgeStation.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>BROOKLYN BRIDGE STATION<span>(2008)</span></h4>
+                            <div class="wrapper">One of the old IRT “Redbird” cars waiting to load up and move out of the BROOKLYN BRIDGE STATION. Mirrors were carefully positioned on both ends of the subway cars to give the illusion of there being more train than there actually is. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>SUBWAY MAQUETTE SERIES</div>
+                            </div> <img src="web_images/photos/images/SubwayMaquette1_8.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>SUBWAY MAQUETTE SERIES</h4>
+                            <div class="wrapper">An ongoing series of very small subway environments. Each piece measures 4 5/8 x 9 1/4 x 2 inches. They can either be hung on the wall or placed on a tabletop. The lighting is achieved with LEDs, and can be powered with either a 9 volt battery or a plugin wall transformer. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content hideflow"> <i class="fa fa-plus fa-3x"></i>SUBWAY PLATFORM SERIES</div>
+                            </div> <img src="web_images/photos/images/33rdstplatform.jpg" class="img-responsive crop " alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>SUBWAY PLATFORM SERIES</h4>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>SUBWAY ENTRANCE SERIES</div>
+                            </div> <img src="web_images/photos/images/SubwayEntrance1_5.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>SUBWAY ENTRANCE SERIES</h4>
+                            <div class="wrapper">I have built several different Subway Entrance pieces over the years. They are all practically identical except for the detailing. The signage, graffiti, and litter differs in each one. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MR. LUCKY</div>
+                            </div> <img src="web_images/photos/images/mrlucky.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>MR. LUCKY<span>(1982)</span></h4>
+                            <div class="wrapper">New York City was practically covered with graffiti during the 1980s. The subway system was a favorite venue for the graffiti artists. Very often entire trains were covered with intricately detailed spray painted murals — very often they were just a mess of scribbles and 'tags.'</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TO ATLANTIC AVENUE</div>
+                            </div> <img src="web_images/photos/images/toatlanticave.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>TO ATLANTIC AVENUE<span>(1982)</span></h4>
+                            <div class="wrapper">This head-on view through a subway train was built into a box that had a small window in its front side. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>CANAL & BROADWAY</div>
+                            </div> <img src="web_images/photos/images/canalbroadway.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>CANAL & BROADWAY<span>(1982)</span></h4>
+                            <div class="wrapper">CANAL & BROADWAY is one of my early pieces showing the turnstile/token booth area of the Canal Street station. .</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>SUBWAY #1</div>
+                            </div> <img src="web_images/photos/images/subway1_RtSide.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>SUBWAY #1<span>(1978)</span></h4>
+                            <div class="wrapper">This was the first urban miniature I ever built. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TRUE LOVE BROOKYLN</div>
+                            </div> <img src="web_images/photos/images/truelove.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>TRUE LOVE BROOKYLN<span>(1990)</span></h4>
+                            <div class="wrapper">Another subway environment with an original graffiti mural. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PENNSYLVANIA AVE. ELAVATED</div>
+                            </div> <img src="web_images/photos/images/penn.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>PENNSYLVANIA AVE. ELAVATED<span>(1995)</span></h4>
+                            <div class="wrapper">This piece was modeled after the elevated subway station I used to get off at to attend Thomas Jefferson High School in Brooklyn. .</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div> <span id="otherE" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span> <span style="background: none; height: 75px; width: 100%; display: block; clear: both;"></span>
+                    <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">OTHER ENVIROMENTS</h2>
+                    <hr style="display: block; clear: both; text-align: center;">
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PARADISE MOTEL</div>
+                            </div> <img src="web_images/photos/images/paradisehotel.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>PARADISE MOTEL<span>(1989)</span></h4>
+                            <div class="wrapper">Shortly after PARADISE MOTEL was included in a gallery show in New York I received an audiocassette in the mail. It was from a country-western singer/songwriter who had seen the show. He wrote a song entitled "Good Luck Wanda and Earl" and it was his vision of how their marriage was working out. According to him, they went through some rocky times, but were still together. It was nice to see how Wanda and Earl were doing in another art form. </div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>FLAMINGO MOTOR COURT</div>
+                            </div> <img src="web_images/photos/images/flamingo.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>FLAMINGO MOTOR COURT<span>(1984)</span></h4>
+                            <div class="wrapper">This roadside motel is one of my departures from the mean streets. As far as I know, it doesn't actually exist anywhere. I designed it based on the Tropical Deco style of architecture so prevalent in South Florida.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 portfolio-item">
+                        <a href="linkpage" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>LABREA GASLAND</div>
+                            </div> <img src="web_images/photos/images/gasland.jpg" class="img-responsive" alt=""> </a>
+                        <div class="portfolio-caption">
+                            <h4>LABREA GASLAND<span>(1997)</span></h4>
+                            <div class="wrapper">This piece is a tribute to life in Los Angeles. Your point of view is that of sitting in the driver's seat at a gas station.</div>
+                            <div class="continue">
+                                <button type="button" class="btn btn-secondary pull-right">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                           
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="peepworld.html" class="portfolio-link" >
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">PEEPWORLD</i> </div>
-                        </div> <img src="web_images/photos/images/peepworld_01.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>PEEPWORLD <span>(2007)</span></h4>
-                        <div class="wrapper">Peepworld is the largest, most intricate piece I've done. Commissioned by a collector from the UK, it took eighteen months to complete.</div>
-                       <div class="continue"><a href="peepworld.html"><button type="button" class="btn btn-secondary pull-right">Continue</button></a></div>
-                    </div>
-                </div>
-                                          
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">CANAL ST. <br>CROSS-SECTION</i> </div>
-                        </div> <img src="web_images/photos/images/canal_st_cross-section/canal_st_cross-section%20(1).jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>CANAL ST. CROSS-SECTION <span>(2010)</span></h4>
-                        <div class="wrapper">I wanted to build a piece that resembled a core sample of a city street. As though you took a street, dug it up, and lifted it straight off the earth. "Canal St. Cross-Section" is a combination of five major pieces built into one box. There's a street scene on the top with a subway entrance on the corner.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                         
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">KATZ'S DELI</i> </div>
-                        </div> <img src="web_images/photos/images/katzs_deli/katz_1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>KATZ'S DELI <span>(2012)</span></h4>
-                        <div class="wrapper">Katz’s Delicatessen is one of those legendary New York locations. It’s been in business on the lower east side of Manhattan since 1888, and is New York’s oldest deli. Telling someone to “meet me at Katz’s..,” is almost the same as telling them to meet you under the clock in Grand Central - everyone knows where it is.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                        
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">PARADISE-PLAYHOUSE</i> </div>
-                        </div> <img src="web_images/photos/images/paradise_playground/PARADISE1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>PARADISE-PLAYHOUSE <span>(2014)</span></h4>
-                        <div class="wrapper">I designed this Times Square environment using details from two different locations. The view into the interior takes you through the rows of x-rated magazines and videos and past the display walls of sex toys and marital aids. In the back of the shop you can see the entrance to the Video Arcade.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                       
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">STRAND CINEMA</i> </div>
-                        </div> <img src="web_images/photos/images/strand_cinema/StrandCinema1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>STRAND CINEMA <span>(2013)</span></h4>
-                        <div class="wrapper">The Strand is a fictitious theater based on details from a few different locations. If you look carefully, you can see where the person changing the marquee accidently dropped (and broke) a couple letters from the top of the ladder. The lighting in the marquee is a combination of LEDs and fiber optics.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">HOPP'S LUNCHEONETTE</i> </div>
-                        </div> <img src="web_images/photos/images/Hopps1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>HOPP'S LUNCHEONETTE <span>(2008)</span></h4>
-                        <div class="wrapper">I designed Hopp's Luncheonette shortly after I finished building PeepWorld. After working on the Times Squaresque environment for a year and a half, I was looking for a ‘kinder, gentler’ subject matter to involve myself with. I decided I wanted something that reminded me of growing up on the streets of Brooklyn, in a much different era.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                     
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">NON-STOP ACTION</i> </div>
-                        </div> <img src="web_images/photos/images/nonstop.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>NON-STOP ACTION <span>(1990)</span></h4>
-                        <div class="wrapper">The exterior of the porno place in Non-Stop Action is loosely based on one of those establishments that used to exist on Times Square before it was made more "family/tourist-friendly."</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                     
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">CASBAH CLUB</i> </div>
-                        </div> <img src="web_images/photos/images/CasbahClub1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>CASBAH CLUB <span>(2008)</span></h4>
-                        <div class="wrapper">This Casbash Club doesn’t actually exist anywhere. The inspiration for the club’s architecture was gotten from an old photo of an adult bookstore in Los Angeles. There are flashing lights and changing colors that are visible in the small window on the entrance door.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                     
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x">FOLLIES BURLESK</i> </div>
-                        </div> <img src="web_images/photos/images/follies.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>FOLLIES BURLESK <span>(1987)</span></h4>
-                        <div class="wrapper">The inspiration for this piece came from an old picture I found of the Times Square area. The original Follies Burlesk stood on the corner of 46th Street and Broadway. It was above a Howard Johnsons' Restaurant, and had the design and look of something right out of the 1950s.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                     
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TUBE BAR</div>
-                        </div> <img src="web_images/photos/images/tubebar.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>TUBE BAR<span>(1992)</span></h4>
-                        <div class="wrapper">I used to pass by Tube Bar all the time when I lived in Jersey City. The beautiful façade, with the over-sized round window and art deco styling was reminiscent of a 'gin-mill' from a bygone era.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                     
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>RIALTO CINEMA</div>
-                        </div> <img src="web_images/photos/images/rialtocinema.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>RIALTO CINEMA<span>(1999)</span></h4>
-                        <div class="wrapper">I decided to use "Clockwork Orange" on the marquee as homage to Stanley Kubrick, one of my favorite film directors. After staying up all night to finish the piece, I awoke the next day to the news that Kubrick had died suddenly the night before</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>ST. GEORGE HOTEL</div>
-                        </div> <img src="web_images/photos/images/stgeorge.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>ST. GEORGE HOTEL<span>(1994)</span></h4>
-                        <div class="wrapper">I think the interior of ST. GEORGE HOTEL is a testimonial to the joys of bachelorhood. Observe the fine cuisine and the portraits of the tenant's many girlfriends.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>VILLAGE CIGARS</div>
-                        </div> <img src="web_images/photos/images/villagecigars.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>VILLAGE CIGARS<span>(1985)</span></h4>
-                        <div class="wrapper">My sculptures are seldom an exact representation of an existing location. Usually, they are either totally from my imagination, or a combination of details from many different environments.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>WILD GIRLS</div>
-                        </div> <img src="web_images/photos/images/wildgirls.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>WILD GIRLS<span>(1995)</span></h4>
-                        <div class="wrapper">This fictional Times Square-esque environment is loosely designed after some of the elements of the 1987 Follies Burlesk piece.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>LUCKY SEVENS CASINO</div>
-                        </div> <img src="web_images/photos/images/casino.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>LUCKY SEVENS CASINO<span>(1988)</span></h4>
-                        <div class="wrapper">To date, LUCKY SEVENS CASINO is the largest, most technically intricate piece I've done. I built it before the Las Vegas strip was turned into a theme park, so it was modeled after the older gambling establishments — they had that ostentatious Vegas feel to them, but with less extravaganza. It was before the days of 'Dancing Waters' and laser light shows.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TIMES SQUARE HOTEL ROOM</div>
-                        </div> <img src="web_images/photos/images/timessq.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>TIMES SQUARE HOTEL ROOM<span>(1982)</span></h4>
-                        <div class="wrapper">In order to formulate the narrative element of the work, I try to envision the person who would occupy that environment and what they would be doing there. I saw this hotel room as home to a struggling, yet determined writer. He spends his days banging away on his portable Olivetti while chain-smoking Marlboros and eating junk food.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>HOTEL HALLWAY</div>
-                        </div> <img src="web_images/photos/images/hotelhall.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>HOTEL HALLWAY<span>(1995)</span></h4>
-                        <div class="wrapper">A small piece with a partial view into the room.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                                                                                                                                                                  
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>OCCUPIED HOTEL ROOM</div>
-                        </div> <img src="web_images/photos/images/occhotelroom.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>OCCUPIED HOTEL ROOM<span>(1979)</span></h4>
-                        <div class="wrapper">Occupied Hotel Room was finished in 1979, and was the second piece I ever built. The first was a subway car interior that was more in the style of an architectural model. With the hotel room, I decided to include more detail to make it more realistic, and interject a narrative element. All the work I have done since has had a narrative component.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>STREET CORNER #1</div>
-                        </div> <img src="web_images/photos/images/stcorner1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>STREET CORNER #1<span>(1998)</span></h4>
-                        <div class="wrapper">Part of an ongoing series of street corner environments.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>BROOKLYN ROOFTOP</div>
-                        </div> <img src="web_images/photos/images/brooklynroof.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>BROOKLYN ROOFTOP<span>(2005)</span></h4>
-                        <div class="wrapper">Brooklyn Rooftopis a piece that was in my head for years before I finally sat down to build it.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>STREET CORNER #2</div>
-                        </div> <img src="web_images/photos/images/stcorner2.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>STREET CORNER #2<span>(2000)</span></h4>
-                        <div class="wrapper">Part of an ongoing series of street corner environments.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                  
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>NEW YORK'S BEST PIZZA</div>
-                        </div> <img src="web_images/photos/images/nybest.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>NEW YORK'S BEST PIZZA<span>(2001)</span></h4>
-                        <div class="wrapper">Part of an ongoing series depicting a vanishing breed — the phone booth.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PHONE BOOTH</div>
-                        </div> <img src="web_images/photos/images/phonebooth.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>PHONE BOOTH<span>(1983)</span></h4>
-<!--                        <div class="wrapper">details.</div>-->
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TOWER OF PIZZA</div>
-                        </div> <img src="web_images/photos/images/towerofpizza.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>TOWER OF PIZZA<span>(1985)</span></h4>
-                        <div class="wrapper">This piece is comprised of details from several different locations, some real and some imagined.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>AAA DETECTIVE AGENCY</div>
-                        </div> <img src="web_images/photos/images/AAADetective.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>AAA DETECTIVE AGENCY<span>(1986)</span></h4>
-                        <div class="wrapper">AAA DETECTIVE AGENCY is my homage to film noir movies, and the Sam Spade type of Private Eye.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PEEPLAND</div>
-                        </div> <img src="web_images/photos/images/Peepland.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>PEEPLAND<span>(1983)</span></h4>
-                        <div class="wrapper">Peepland shows a fictitious section of Times Square real estate. It has almost everything you need, all in a row. The sleazy porno shop is surrounded by the sleazy hotel on the one side, and the sleazy movie theater on the other. Probably the only thing missing would be a sleazy bar.  For you motorcycle enthusiasts—you’ll be happy to know that there are continuous showings of the widely acclaimed classic film “Hot Biker Girls.”</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>HOTEL CAVALIER</div>
-                        </div> <img src="web_images/photos/images/hotelcav.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>HOTEL CAVALIER<span>(1984)</span></h4>
-                        <div class="wrapper">An actual hotel located on 34th Street inspires the entrance to the HOTEL CAVALIER. This one, however, is somewhat seedier than the original.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>NEW YORK ARMY-NAVY</div>
-                        </div> <img src="web_images/photos/images/nyarmynavy.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>NEW YORK ARMY-NAVY<span>(1991)</span></h4>
-                        <div class="wrapper">Part of an ongoing series depicting a vanishing breed — the phone booth.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PLAYBOY BILLIARDS </div>
-                        </div> <img src="web_images/photos/images/playboys.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>PLAYBOY BILLIARDS <span>(1986)</span></h4>
-                        <div class="wrapper">Playboy Billiards is a composite of details I remembered from some neighborhood 'Billiard Parlors' in Brooklyn.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                                                                                                    
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>HUDSON HOTEL</div>
-                        </div> <img src="web_images/photos/images/hudson_hotel/HUDSON1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>HUDSON HOTEL<span>(1984)</span></h4>
-                        <div class="wrapper">The entrance to the Hudson Hotel is roughly modeled after a flophouse I saw on the Bowery. The street corner portrayed in the piece is fictitious. There is a complete view into the lobby of the seedy hotel, as well as partial views into the theater lobby and subway entrance.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                
-            <span id="diners" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span>
-            <span style="background: none; height: 75px; width: 100%; display: block; clear: both;" ></span>
-            <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">DINERS & FEATURES</h3> 
-            <hr style="display: block; clear: both; text-align: center;">
-
-                  
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>LOR-AL DINER</div>
-                        </div> <img src="web_images/photos/images/loral.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>LOR-AL DINER<span>(1987)</span></h4>
-                        <div class="wrapper">Lor-al Diner is modeled after the Corfu Diner, located in the Chelsea section of Manhattan.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MISS AMERICA DINER</div>
-                        </div> <img src="web_images/photos/images/missadiner.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>MISS AMERICA DINER<span>(2000)</span></h4>
-                        <div class="wrapper">The location of the Miss America Diner was a surprise. I would have expected to find it as a roadside attraction on a turnpike, or perhaps in an industrial area catering to the workers on their lunch hour. The classic 1942 stainless steel beauty is almost hidden away in a residential/commercial area of Jersey City.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TERMINAL DINER</div>
-                        </div> <img src="web_images/photos/images/terminaldiner.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>TERMINAL DINER<span>(1990)</span></h4>
-                        <div class="wrapper">The Terminal Diner actually exists on the west side of Manhattan. The classically designed stainless steel eatery looks as though it was squeezed to get it into an alleyway between two buildings.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>NATHAN'S CONEY ISLAND</div>
-                        </div> <img src="web_images/photos/images/nathans.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>NATHAN'S CONEY ISLAND<span>(1984)</span></h4>
-                        <div class="wrapper">Anyone who grew up in Brooklyn has visited Nathan's at Coney Island at least once—probably many times.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MIDTOWN DINER</div>
-                        </div> <img src="web_images/photos/images/midtowndiner.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>MIDTOWN DINER<span>(1983)</span></h4>
-                        <div class="wrapper">Midtown Diner shows the interior view of a fictitious diner. The half eaten meal and the tip left on the table helps to tell the story of who just left.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MA'S HOME COOKING</div>
-                        </div> <img src="web_images/photos/images/mas.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>MA'S HOME COOKING<span>(1991)</span></h4>
-                        <div class="wrapper">Ma's Home Cooking was modeled after an existing restaurant on Doyers Street in New York's Chinatown. Doyers is a small street, that's easy to miss if you're not looking for it. It only runs one block long, and makes a sharp 90 degree turn midway. The street has an interesting history. The tabloids used to refer to it as the "Bloody Angle" because of the tong wars that were fought there in the early 20th century.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>METRO DINER</div>
-                        </div> <img src="web_images/photos/images/MetroDiner.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>METRO DINER<span>(1985)</span></h4>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>BOULEVARD DRINKS #1</div>
-                        </div> <img src="web_images/photos/images/blvddrinks1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>BOULEVARD DRINKS #1<span>(1989)</span></h4>
-                        <div class="wrapper">Boulevard Drinks has been a landmark on Journal Square in Jersey City, NJ since 1949.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>BOULEVARD DRINKS #2</div>
-                        </div> <img src="web_images/photos/images/blvddrinks2.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>BOULEVARD DRINKS #2<span>(2003)</span></h4>
-                        <div class="wrapper">This is the second version I did of Boulevard Drinks.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MOE'S LUNCHEONETTE</div>
-                        </div> <img src="web_images/photos/images/moes.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>MOE'S LUNCHEONETTE<span>(1982)</span></h4>
-                        <div class="wrapper">The inspiration for Moe's Luncheonette came from the street corner where many of the "Tunnel Bunnies" used to congregate late at night. Not far from the entrance of the Lincoln Tunnel, it was good location to attract the commuter clientele.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>WHITE TOWER HAMBURGERS</div>
-                        </div> <img src="web_images/photos/images/whitetower.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>WHITE TOWER HAMBURGERS<span>(1984)</span></h4>
-                        <div class="wrapper">Long before Americans had McDonalds, there was the White Tower chain. These beautiful art deco restaurants dotted the eastern half of the US from the mid 1920s up until the early 70s. It is probably debatable whether they were better known for their architectural style or for the price of their burgers — a nickel!
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                      
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>KATZ'S DELI</div>
-                        </div> <img src="web_images/photos/images/katzs_deli/katz_1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>KATZ'S DELI<span>(2012)</span></h4>
-                        <div class="wrapper">Katz’s Delicatessen is one of those legendary New York locations. It’s been in business on the lower east side of Manhattan since 1888, and is New York’s oldest deli. Telling someone to “meet me at Katz’s..,” is almost the same as telling them to meet you under the clock in Grand Central - everyone knows where it is.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                
-            <span id="subway" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span>
-            <span style="background: none; height: 75px; width: 100%; display: block; clear: both;" ></span>
-            <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">SUBWAY SCENES</h3> 
-            <hr style="display: block; clear: both; text-align: center;">
-
-                  
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>SUBWAY AT BLEECKER ST.</div>
-                        </div> <img src="web_images/photos/images/subway_bleecker/SUB_BLKR1.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>SUBWAY AT BLEECKER ST.<span>(2013)</span></h4>
-                        <div class="wrapper">This subway diorama gives you a point of view from the interior of the car. Looking off to the left you can see a partial view into the next car. The view through the door and windows puts you on the Bleecker St. station — in the heart of Greenwich Village. The sign on the station wall is a replica of the original ceramic sign which has been there since the IRT subway line opened in 1904. Thankfully, the sign has been preserved by having it declared as a New York City Landmark.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>CANAL ST. CROSS-SECTION</div>
-                        </div> <img src="web_images/photos/images/canal_st_cross-section/canal_st_cross-section%20(1).jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>CANAL ST. CROSS-SECTION<span>(2010)</span></h4>
-                        <div class="wrapper">I wanted to build a piece that resembled a core sample of a city street. As though you took a street, dug it up, and lifted it straight off the earth. "Canal St. Cross-Section" is a combination of five major pieces built into one box. There's a street scene on the top with a subway entrance on the corner. Looking down into the subway entrance, you are led to the two subterranean levels of the piece, both of which have intersecting cross views visible through the small windows on the sides of the piece.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>BROOKLYN BRIDGE STATION</div>
-                        </div> <img src="web_images/photos/images/BrooklynBridgeStation.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>BROOKLYN BRIDGE STATION<span>(2008)</span></h4>
-                        <div class="wrapper">One of the old IRT “Redbird” cars waiting to load up and move out of the BROOKLYN BRIDGE STATION. Mirrors were carefully positioned on both ends of the subway cars to give the illusion of there being more train than there actually is.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>SUBWAY MAQUETTE SERIES</div>
-                        </div> <img src="web_images/photos/images/SubwayMaquette1_8.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>SUBWAY MAQUETTE SERIES</h4>
-                        <div class="wrapper">An ongoing series of very small subway environments. Each piece measures 4 5/8 x 9 1/4 x 2 inches. They can either be hung on the wall or placed on a tabletop. The lighting is achieved with LEDs, and can be powered with either a 9 volt battery or a plugin wall transformer.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content hideflow"> <i class="fa fa-plus fa-3x"></i>SUBWAY PLATFORM SERIES</div>
-                        </div> <img src="web_images/photos/images/33rdstplatform.jpg" class="img-responsive crop " alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>SUBWAY PLATFORM SERIES</h4>
-                        <!--<div class="wrapper">Part of an ongoing series of subway station environments I've worked on for many years. Each piece is unique in it's detailing.
-
-</div>-->
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>SUBWAY ENTRANCE SERIES</div>
-                        </div> <img src="web_images/photos/images/SubwayEntrance1_5.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>SUBWAY ENTRANCE SERIES</h4>
-                        <div class="wrapper">I have built several different Subway Entrance pieces over the years. They are all practically identical except for the detailing. The signage, graffiti, and litter differs in each one.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>MR. LUCKY</div>
-                        </div> <img src="web_images/photos/images/mrlucky.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>MR. LUCKY<span>(1982)</span></h4>
-                        <div class="wrapper">New York City was practically covered with graffiti during the 1980s. The subway system was a favorite venue for the graffiti artists. Very often entire trains were covered with intricately detailed spray painted murals — very often they were just a mess of scribbles and 'tags.'</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TO ATLANTIC AVENUE</div>
-                        </div> <img src="web_images/photos/images/toatlanticave.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>TO ATLANTIC AVENUE<span>(1982)</span></h4>
-                        <div class="wrapper">This head-on view through a subway train was built into a box that had a small window in its front side.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>CANAL & BROADWAY</div>
-                        </div> <img src="web_images/photos/images/canalbroadway.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>CANAL & BROADWAY<span>(1982)</span></h4>
-                        <div class="wrapper">CANAL & BROADWAY is one of my early pieces showing the turnstile/token booth area of the Canal Street station.
-
-.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>SUBWAY #1</div>
-                        </div> <img src="web_images/photos/images/subway1_RtSide.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>SUBWAY #1<span>(1978)</span></h4>
-                        <div class="wrapper">This was the first urban miniature I ever built.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>TRUE LOVE BROOKYLN</div>
-                        </div> <img src="web_images/photos/images/truelove.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>TRUE LOVE BROOKYLN<span>(1990)</span></h4>
-                        <div class="wrapper">Another subway environment with an original graffiti mural.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                   
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PENNSYLVANIA AVE. ELAVATED</div>
-                        </div> <img src="web_images/photos/images/penn.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>PENNSYLVANIA AVE. ELAVATED<span>(1995)</span></h4>
-                        <div class="wrapper">This piece was modeled after the elevated subway station I used to get off at to attend Thomas Jefferson High School in Brooklyn.
-
-.</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                
-            <span id="otherE" style="background: rgba(0, 0, 0, 0.2); display: block; clear: both; width: 100%; height: 1px;"></span>
-            <span style="background: none; height: 75px; width: 100%; display: block; clear: both;" ></span>
-            <h2 style="display: block; clear: both; text-align: center;" class="section-subheading text-muted">OTHER ENVIROMENTS</h3> 
-            <hr style="display: block; clear: both; text-align: center;">
-
-                  
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>PARADISE MOTEL</div>
-                        </div> <img src="web_images/photos/images/paradisehotel.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>PARADISE MOTEL<span>(1989)</span></h4>
-                        <div class="wrapper">Shortly after PARADISE MOTEL was included in a gallery show in New York I received an audiocassette in the mail. It was from a country-western singer/songwriter who had seen the show. He wrote a song entitled "Good Luck Wanda and Earl" and it was his vision of how their marriage was working out. According to him, they went through some rocky times, but were still together. It was nice to see how Wanda and Earl were doing in another art form.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                  
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>FLAMINGO MOTOR COURT</div>
-                        </div> <img src="web_images/photos/images/flamingo.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>FLAMINGO MOTOR COURT<span>(1984)</span></h4>
-                        <div class="wrapper">This roadside motel is one of my departures from the mean streets. As far as I know, it doesn't actually exist anywhere. I designed it based on the Tropical Deco style of architecture so prevalent in South Florida.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                                  
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                    <a href="linkpage" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i>LABREA GASLAND</div>
-                        </div> <img src="web_images/photos/images/gasland.jpg" class="img-responsive" alt=""> </a>
-                    <div class="portfolio-caption">
-                        <h4>LABREA GASLAND<span>(1997)</span></h4>
-                        <div class="wrapper">This piece is a tribute to life in Los Angeles. Your point of view is that of sitting in the driver's seat at a gas station.
-
-</div>
-                       <div class="continue"><button type="button" class="btn btn-secondary pull-right">Continue</button></div>
-                    </div>
-                </div>
-                
-            </div>
-         </div>
-    </section>
-                    
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4"> <span class="copyright">Copyright © 2015 Alan Wolfson</span> </div>
-                <div class="col-md-4">
-     <!--               <ul class="list-inline social-buttons">
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"> <span class="copyright">Copyright © 2015 Alan Wolfson</span> </div>
+                    <div class="col-md-4">
+                        <!--               <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
                         <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
                     </ul>-->
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a> </li>
-                        <li><a href="#">Terms of Use</a> </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"> </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li><a href="#">Privacy Policy</a> </li>
+                            <li><a href="#">Terms of Use</a> </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-responsive" src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502" alt="">
-                    <button type="button" class="btn btn-default btn-prev">Prev</button>
-                    <button type="button" class="btn btn-default btn-next">Next</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+        </footer>
+        <!-- Portfolio Modals -->
+        <!-- Use the modals below to showcase details about your portfolio projects! -->
+        <!-- Portfolio Modal 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"> </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-responsive" src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502" alt="">
+                                <button type="button" class="btn btn-default btn-prev">Prev</button>
+                                <button type="button" class="btn btn-default btn-next">Next</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-        </div>
         </div>
         <!-- Portfolio Modal 2 -->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
@@ -1073,14 +1079,16 @@
                 $('.navbar-toggle:visible').click();
             });
         </script>
-        <script>jQuery(document).ready(function($) {  
-
-// site preloader -- also uncomment the div in the header and the css style for #preloader
-$(window).load(function(){
-	$('#preloader').fadeOut('slow',function(){$(this).remove();});
-});
-
-});</script>
+        <script>
+            jQuery(document).ready(function ($) {
+                // site preloader -- also uncomment the div in the header and the css style for #preloader
+                $(window).load(function () {
+                    $('#preloader').fadeOut('slow', function () {
+                        $(this).remove();
+                    });
+                });
+            });
+        </script>
 </body>
 
 </html>
