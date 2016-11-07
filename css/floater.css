@@ -2,8 +2,8 @@
     position: absolute;
     top: 100px;
     right: 0px;
-    z-index: 9999;
-    width: 200px;
+    z-index: 1000;
+    width: 170px;
     height: 50px;
     text-align: center;
 }
@@ -12,13 +12,11 @@
     
     line-height: 50px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
     font-size: 14px;
     background: none;
     color: #000;
     border: solid 1px black;
     letter-spacing: 10px;
-    border-radius: 5px;
     padding-right: 0px;
 }
 

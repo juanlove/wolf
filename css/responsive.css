@@ -26,6 +26,14 @@
     font-weight: bold;
 }
 
+@media(max-width:1345px) {
+    #fl_menu {
+        display: none;
+    }
+    
+}
+
+
 @media(max-width:800px) {
     .portfolio-caption {
         display: none !important;
